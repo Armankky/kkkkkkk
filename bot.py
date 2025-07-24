@@ -3,8 +3,8 @@ import os
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message
 
-BOT_TOKEN = os.getenv("8209862379:AAHhNcCtdLFstvQwTU0KhT7FuqXzFLSyze0")
-OWNER_ID = int(os.getenv("5641033845"))
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
